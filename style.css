@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 50px;
+  padding: 10px;
 }
 
 header {
@@ -36,20 +36,20 @@ main {
   padding: 20px;
 }
 
-div.article1 {
+.article1 {
   text-align: left;
   padding: 20px;
-  width: fit-content;
+  position: static;
 }
 
-div.article2 {
+.article2 {
   text-align: right;
   padding: 20px;
-  width: fit-content;
+  position: static;
 }
 
 article {
-  margin-bottom: 20px;
+  margin-bottom: relative;
 }
 
 article h2 {
@@ -66,4 +66,5 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
+  margin-bottom: 0px;
 }
